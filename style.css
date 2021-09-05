@@ -1,4 +1,4 @@
 body
 {
-    background-image: "firstimg.png";
+    background-image: url("firstimg.png");
 }
